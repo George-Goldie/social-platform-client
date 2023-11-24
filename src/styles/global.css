@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a global font family */
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Set a global max-width for better readability */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Add some spacing between elements */
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Style links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
